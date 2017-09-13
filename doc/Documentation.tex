@@ -2,17 +2,10 @@
 \documentclass[preprint,12pt]{elsarticle}
 
 % Packages used.
-\usepackage{amssymb}
 \usepackage{lineno}
 \usepackage{graphicx}
 \usepackage[utf8]{inputenc}
 \usepackage[hidelinks]{hyperref}
-\usepackage{caption}
-\usepackage{listings}
-\usepackage{dirtytalk} % For quoting text.
-\usepackage{tabularx} % For longer tables.
-\usepackage{ltablex} % For tables that go to new pages.
-\usepackage{tabu}
 
 % Define bibliography style.
 \usepackage{natbib}
@@ -20,20 +13,17 @@
 
 \journal{Instituto Tecnologico de Tijuana}
 
-
 \begin{document}
 
 \begin{frontmatter}
 
 \title{Virtual Reality}
-
 \author{Salcedo Morales Jose Manuel}
-
-\address{Mexico, Baja California, Tijuana}
+\address{Tijuana, Baja California, Mexico}
 
 \begin{abstract}
 	This project consists of a virtual reality application for treating
-	the phobia for solitude.
+	the phobia of solitude.
 \end{abstract}
 
 \begin{keyword}
@@ -53,9 +43,17 @@ VR, virtual-reality, software, hardware, academic, research, phobia, solitude.
 
 \newpage
 \section{Project Overview}
-
 	\subsection{Description of the problem}
+	Phobias are not an easy thing to live with. Furthermore, phobia of
+	solitude not only affects the person that has it, it also impacts
+	everyone that must keep up with it. \cite{Monophobia}
 	\subsection{Goals}
+	\begin{itemize}
+		\item Create a software app in Unity, with support for VR
+			hardware. The options being:
+			\subitem Oculus Rift
+			\subitem Google Cardboard
+	\end{itemize}
 	\subsection{Hypotheses or assumptions}
 	\subsection{Justification}
 
@@ -79,6 +77,6 @@ VR, virtual-reality, software, hardware, academic, research, phobia, solitude.
 
 \newpage
 \section{References}
-\bibliography{Bibliography}
+\bibliography{References.bib}
 
 \end{document}
